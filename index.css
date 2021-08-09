@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.header {
+  width: 100%;
+  height: 72px;
+  background-color: #ffffff;
+  padding: 18px 17px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 54px;
+  height: 50px;
+}
+.burguer {
+  display: grid;
+  gap: 7px;
+}
+.rectangulo-negro {
+  background-color: #141414;
+  width: 36px;
+  height: 6px;
+}
+.main {
+  width: 100%;
+  height: 544px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 58px;
+}
+.contenedor-titulo {
+}
+.titulo {
+  width: 291px;
+  height: 96px;
+  font-family: "Open Sans";
+  font-size: 48px;
+  text-align: center;
+}
+.mi-imagen {
+  width: 318px;
+  height: 300px;
+}
+.section-uno {
+  background-color: #141414;
+}
