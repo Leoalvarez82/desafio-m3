@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -18,47 +21,60 @@
             <div class="rectangulo-negro"></div>
             <div class="rectangulo-negro"></div>
         </div>
+        <nav class="contenedor-links">
+            <a href="#section-uno" style="text-decoration:none" class="link-menu">¿Quien Soy?</a>
+            <a href="#section-dos" style="text-decoration:none" class="link-menu">Servicios</a>
+            <a href="#section-tres" style="text-decoration:none"  class="link-menu">Contactanos</a>
+        </nav>
     </header>
-    <main class="main">
-        <div class="contenedor-titulo">
+    <div class="main">
+        
         <h1 class="titulo">Bienvenidos   a mi site</h1>
-    </div>
+    
         <img class="mi-imagen" src="imagenes/esleo.png" alt="">
-    </main>
+</div>
     <section class="section-uno">
-        <h1 class="quien-soy">Soy Leo</h1>
-        <p class= "descripcion-section-uno">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corrupti iure atque debitis</p>
-        <img src="imagenes/vector" alt="">
+        <div class="titulo-parrafo">
+        <h1 class="quien-soy" style="margin:0">Soy Leo</h1>
+    <div class="contenedor-parrafo">
+        <p class= "descripcion-section-uno">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corrupti iure atque debitis Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corrupti iure atque debitis Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corrupti iure atque debitis Nobis corrupti iure atque debiti. Nobis corrupti iure atque debitis</p>
+    </div>
+</div>
+        <img class="vector" src="imagenes/vector.jpeg" alt="">
     </section>
     <section class="section-dos">
-        <h1 class="servicios">Mis servicios</h1>
-        <div class="servicios-uno">
-            <img class="imagen-servicios-uno" src="" alt="" >
-            <h2 class="subtitulo">Hago cosas</h2>
-            <p class="descripcion-servicios"></p>
+        <div class="contenedor-titulo-servicios">
+        <h1 class="titulo-servicios" style="margin:0">Mis servicios</h1>
+    </div>
+       <div class="todos-servicios">
+        <div class="servicios">
+            <img class="imagen-servicios" src= "imagenes/servicios.jpeg" alt="" >
+            <h3 class="subtitulo" >Hago cosas</h3>
+            <p class="descripcion-servicios">Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique.</p>
         </div>
-        <div class="servicios-dos">
-            <img class="imagen-servicios-dos" src="" alt="" >
-            <h2 class="subtitulo">Y mas cosas</h2>
-            <p class="descripcion-servicios"></p>
+        <div class="servicios">
+            <img class="imagen-servicios" src="imagenes/servicios.jpeg" alt="" >
+            <h3 class="subtitulo">Y mas cosas</h3>
+            <p class="descripcion-servicios">Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique.</p>
         </div>
         <div class="servicios-tres">
-            <img class="imagen-servicios-tres" src="" alt="" >
-            <h2 class="subtitulo">Y también otras cosas</h2>
-            <p class="descripcion-servicios"></p>
+            <img class="imagen-servicios" src="imagenes/servicios.jpeg" alt="" >
+            <h3 class="subtitulo">Y también otras cosas</h3>
+            <p class="descripcion-servicios">Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique.</p>
         </div>
+    </div>
     </section>
     <section class="section-tres">
-        <h1 class="titulo-form">Escribime</h1>
+        <h1 class="titulo-form" >Escribime</h1>
         <div class="fieldset">
-            <label for="nombre" class="nombre">Nombre</label>
+            <label for="nombre" class="nombre">NOMBRE</label>
             <input class="input-nombre" type="text" id="nombre" >
         </div>
         <div class="fieldset">
-            <label for="email" class="email">Email</label>
+            <label for="email" class="email">EMAIL</label>
             <input class="input-email" type="email" id="email" >
         </div>
-        <div class="fieldset">
+        <div class="fieldset-textarea">
             <label for="mensaje" class="mensaje">Mensaje</label>
             <textarea name="mensaje" id="mensaje" class="textarea-mensaje"></textarea>
         </div>
@@ -68,22 +84,22 @@
     </section>
     <footer class="footer">
         <div class="logo-copyrigth">
-            <img src="" alt="">
-            <label for="copyrigth" class="copyrigth"></label>
+            <img class="imagen-copyrigth" src="imagenes/logo.png" alt="">
+            <small class="copyrigth">© 2021 Leo</small>
         </div>
         <div class="redes-sociales">
-            <div class="instagram">
-                <img src="" alt="">
-                <label class="label-redes" for="instagram"></label>
+            <div class="contenedor-redes">
+                <img class="imagen-instagram" src="imagenes/vector-instagram.png" alt="">
+                <p class="redes">Instagram</p>
             </div>
-            <div class="linkedin">
-                <img src="" alt="">
-                <label class="label-redes" for="instagram"></label>
-            </div>
-            <div class="github">
-                <img src="" alt="">
-                <label class="label-redes" for="instagram"></label>
-            </div>
+            <div class="contenedor-redes">
+                <img class="imagen-linkedin" src="imagenes/linke.png" alt="">
+                 <p class="redes">LinkedIn</p>
+                </div>
+                <div class="contenedor-redes">
+                <img class="imagen-github" src="imagenes/github.png" alt="">
+                 <p class="redes">GitHub</p>
+             </div>   
         </div>
     </footer>
 </body>
